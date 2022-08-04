@@ -1,0 +1,14 @@
+#You can write in color by using "&" symbol and the color's letter.
+live-weather:
+  prefix: "&7[&e&lLive&b&lWeather &e&lGUI&7]"
+  is-active: true
+  city:
+    name: "nothing"
+    country: "nothing"
+    country_code: "??"
+    timezone: "n/n"
+    coords:
+      x: 0.0
+      y: 0.0
+settings:
+  world-name: "world"

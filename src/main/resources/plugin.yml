@@ -1,0 +1,12 @@
+name: LiveWeatherGUI
+version: '${project.version}'
+main: fr.keykatyu.liveweathergui.Main
+api-version: 1.19
+authors: [KeyKatyu]
+description: Play Minecraft with the real weather conditions of your city !
+dependency: [NBTAPI]
+commands:
+  liveweather:
+    permission: liveweather.*
+    permission-message: §cYou don't have the permission to use this command ! (liveweather.*)
+    description: Open an inventory to control the LiveWeatherGUI plugin
